@@ -34,42 +34,7 @@
     <script type="text/javascript" charset="utf-8" src="js/json2.js"></script>	
     <script type="text/javascript" charset="utf-8" src="js/cordova-1.8.1.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/db.js"></script>
-    <script type="text/javascript">
-        // If you want to prevent dragging, uncomment this section
-        /*
-        function preventBehavior(e) 
-        { 
-          e.preventDefault(); 
-        };
-        document.addEventListener("touchmove", preventBehavior, false);
-        */
-        
-        /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-        see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-        for more details -jm */
-        /*
-        function handleOpenURL(url)
-        {
-            // TODO: do something with the url passed in.
-        }
-        */
-        
-        function onBodyLoad()
-        {		
-            document.addEventListener("deviceready", onDeviceReady, false);
-        }
-        
-        /* When this function is called, Cordova has been initialized and is ready to roll */
-        /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-        see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-        for more details -jm */
-        function onDeviceReady()
-        {            
-            var db = window.openDatabase('hymns', '1.0', 'hymns', 3145728);
-            db.transaction(populateDB, errorCB, successCB);
-            db.transaction(queryDB, errorCB);
-        }
-    </script>
+    <script type="text/javascript" charset="utf-8" src="js/core.js"></script>
   </head>
   <body onload="onBodyLoad()">
       <div data-role="page" id="home">
@@ -89,25 +54,25 @@
       <div data-role="page" id="hymn">
           <div data-theme="a" data-role="header" data-position="fixed" data-fullscreen="true">
               <a data-role="button" data-icon="back" data-rel="back" href="#home">Back</a>
-              <h5>
+              <h5 class="hymn_title">
                   Písně
               </h5>
           </div>
-          <div data-role="content" style="padding: 15px">
-              <h1>Hymn goes here</h1>
+          <div data-role="content" style="">
+              <!--<embed class="hymn_view" style="width:100%;height:100%" src="files/1.pdf" />-->
           </div>
       </div>
       
       <div data-role="page" id="info">
           <div data-theme="a" data-role="header" data-position="fixed" data-fullscreen="true">
               <h5>
-                  Info
+                  Český Zpěvník 
               </h5>
           </div>
           <div data-role="content" style="padding: 15px">
-              <p>Český Zpěvník &copy; 2012 Juicy Development LLC</p>
+              <p>&copy; 2012 Juicy Development LLC</p>
               <p>Jako dar pro členy a přátele Církve Ježíše Krista Svatých Posledních Dnů.</p>
-              <p>Tento app je poskytován jako veřejná služba. Písně jsou majetky svých příslušných vlastníků.</p>
+              <p>Písně jsou majetky svých příslušných vlastníků.</p>
               <p>Autor tento app je samostatný od Církve a není zaměstnan Církvi. Pošlete prosím dotazy a doporučení <a rel="external" href="mailto:brent@juicydevelopment.com">emailem</a>.</p>
               <p>Najděte vice informaci o Církvi na webové stránce <a rel="external" href="http://www.mormon.cz">www.mormon.cz</a>.</p>
           </div>

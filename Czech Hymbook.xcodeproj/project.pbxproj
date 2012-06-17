@@ -38,7 +38,6 @@
 		CA201599158E59D500378CE1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA201598158E59D500378CE1 /* MainViewController.m */; };
 		CA20159B158E59D500378CE1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA20159A158E59D500378CE1 /* MainViewController.xib */; };
 		CA2015AF158E5B7700378CE1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = CA2015AE158E5B7700378CE1 /* www */; };
-		CA2015B1158E6D6000378CE1 /* hymns in Resources */ = {isa = PBXBuildFile; fileRef = CA2015B0158E6D6000378CE1 /* hymns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,7 +79,6 @@
 		CA20159D158E59D500378CE1 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		CA20159E158E59D500378CE1 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
 		CA2015AE158E5B7700378CE1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
-		CA2015B0158E6D6000378CE1 /* hymns */ = {isa = PBXFileReference; lastKnownFileType = file; path = hymns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +180,6 @@
 		CA201572158E59D500378CE1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CA2015B0158E6D6000378CE1 /* hymns */,
 				CA20158F158E59D500378CE1 /* Capture.bundle */,
 				CA201573158E59D500378CE1 /* en.lproj */,
 				CA201577158E59D500378CE1 /* es.lproj */,
@@ -335,7 +332,6 @@
 				CA201592158E59D500378CE1 /* Cordova.plist in Resources */,
 				CA20159B158E59D500378CE1 /* MainViewController.xib in Resources */,
 				CA2015AF158E5B7700378CE1 /* www in Resources */,
-				CA2015B1158E6D6000378CE1 /* hymns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
