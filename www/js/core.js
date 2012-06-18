@@ -30,8 +30,35 @@ function onBodyLoad()
  for more details -jm */
 function onDeviceReady()
 {
-    db = window.openDatabase('hymns', '1.0', 'hymns', 3145728);
+    var root = this;
+    cb = window.plugins.childBrowser;
+    
+    if(cb != null) {
+        cb.onLocationChange = function(loc){ root.locChanged(loc); };
+        cb.onClose = function(){root.onCloseBrowser(); };
+        cb.onOpenExternal = function(){root.onOpenExternal(); };        
+    }
+    
+    db = window.openDatabase('hymns', '1.0', 'hymns', 3145728); // 3MB of browser storage allocated
     db.transaction(populateDB, errorCB, successCB);
     db.transaction(queryDB, errorCB);
 }
 
+function onCloseBrowser() {
+}
+
+function locChanged(loc) {
+}
+
+function onOpenExternal() {
+}
+
+if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+    $(window).bind('orientationchange', function(event) {
+       if (window.orientation == 90 || window.orientation == -90 || window.orientation == 270) {
+           $('meta[name="viewport"]').attr('content', 'height=device-width,width=device-height,initial-scale=1.0,maximum-scale=1.0');
+       } else {
+           $('meta[name="viewport"]').attr('content', 'height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0');
+       }
+   }).trigger('orientationchange');
+}

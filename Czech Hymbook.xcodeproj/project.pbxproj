@@ -38,6 +38,10 @@
 		CA201599158E59D500378CE1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA201598158E59D500378CE1 /* MainViewController.m */; };
 		CA20159B158E59D500378CE1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA20159A158E59D500378CE1 /* MainViewController.xib */; };
 		CA2015AF158E5B7700378CE1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = CA2015AE158E5B7700378CE1 /* www */; };
+		CA820523158EA786006B0128 /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA82051E158EA786006B0128 /* ChildBrowser.bundle */; };
+		CA820524158EA786006B0128 /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CA820520158EA786006B0128 /* ChildBrowserCommand.m */; };
+		CA820525158EA786006B0128 /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA820522158EA786006B0128 /* ChildBrowserViewController.m */; };
+		CA820528158EA8FC006B0128 /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA820527158EA8FC006B0128 /* ChildBrowserViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +83,12 @@
 		CA20159D158E59D500378CE1 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		CA20159E158E59D500378CE1 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
 		CA2015AE158E5B7700378CE1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		CA82051E158EA786006B0128 /* ChildBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChildBrowser.bundle; sourceTree = "<group>"; };
+		CA82051F158EA786006B0128 /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserCommand.h; sourceTree = "<group>"; };
+		CA820520158EA786006B0128 /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserCommand.m; sourceTree = "<group>"; };
+		CA820521158EA786006B0128 /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserViewController.h; sourceTree = "<group>"; };
+		CA820522158EA786006B0128 /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserViewController.m; sourceTree = "<group>"; };
+		CA820527158EA8FC006B0128 /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildBrowserViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +176,7 @@
 		CA201568158E59D500378CE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA820527158EA8FC006B0128 /* ChildBrowserViewController.xib */,
 				CA201569158E59D500378CE1 /* Czech Hymbook-Info.plist */,
 				CA20156A158E59D500378CE1 /* InfoPlist.strings */,
 				CA20156D158E59D500378CE1 /* main.m */,
@@ -256,6 +267,11 @@
 		CA20159C158E59D500378CE1 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				CA82051E158EA786006B0128 /* ChildBrowser.bundle */,
+				CA82051F158EA786006B0128 /* ChildBrowserCommand.h */,
+				CA820520158EA786006B0128 /* ChildBrowserCommand.m */,
+				CA820521158EA786006B0128 /* ChildBrowserViewController.h */,
+				CA820522158EA786006B0128 /* ChildBrowserViewController.m */,
 				CA20159D158E59D500378CE1 /* README */,
 			);
 			name = Plugins;
@@ -332,6 +348,8 @@
 				CA201592158E59D500378CE1 /* Cordova.plist in Resources */,
 				CA20159B158E59D500378CE1 /* MainViewController.xib in Resources */,
 				CA2015AF158E5B7700378CE1 /* www in Resources */,
+				CA820523158EA786006B0128 /* ChildBrowser.bundle in Resources */,
+				CA820528158EA8FC006B0128 /* ChildBrowserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +379,8 @@
 				CA20156E158E59D500378CE1 /* main.m in Sources */,
 				CA201596158E59D500378CE1 /* AppDelegate.m in Sources */,
 				CA201599158E59D500378CE1 /* MainViewController.m in Sources */,
+				CA820524158EA786006B0128 /* ChildBrowserCommand.m in Sources */,
+				CA820525158EA786006B0128 /* ChildBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

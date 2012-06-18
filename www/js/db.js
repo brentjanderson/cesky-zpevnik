@@ -18,11 +18,10 @@ function querySuccess(tx, results) {
             $('<li data-role="list-divider" role="heading">'+(startNum)+'-'+(endNum)+'</li>').appendTo('.hymnlist');
         }
         
-        $('<li><a data-hymn="'+row.id+'" data-transition="slide" href="#hymn">'+row.hymn_num+' - '+row.name+'</a></li>').appendTo('.hymnlist');
+        $('<li><a data-file="'+row.file+'" data-transition="slide" href="#">'+row.hymn_num+' - '+row.name+'</a></li>').appendTo('.hymnlist');
     }
     $('.hymnlist li a').click(function() {
-        loadHymn($(this).data('hymn'));
-        $.mobile.changePage( "#hymn", { transition: "slideup"} );
+        window.plugins.childBrowser.showWebPage("www/files/"+$(this).data('file'));
         return false;
     });
     $('.hymnlist').listview('refresh');
