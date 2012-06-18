@@ -97,20 +97,20 @@
 		CA20159D158E59D500378CE1 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		CA20159E158E59D500378CE1 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
 		CA2015AE158E5B7700378CE1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
-		CA481CD3158EC08200ED19D9 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
-		CA481CD5158EC0A100ED19D9 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
-		CA481CD7158EC0FA00ED19D9 /* 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144.png; sourceTree = "<group>"; };
-		CA481CD9158EC11800ED19D9 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
-		CA481CDB158EC26C00ED19D9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		CA481CDD158EC27200ED19D9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		CA481CDF158EC2E800ED19D9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		CA481CE1158EC2EC00ED19D9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		CA481CE3158EC2FC00ED19D9 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
-		CA481CE5158EC33C00ED19D9 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
-		CA481CE7158EC41500ED19D9 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
-		CA481CE9158EC80500ED19D9 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
-		CA481CEC158EC81C00ED19D9 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		CA481CEF158EC9B500ED19D9 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		CA481CD3158EC08200ED19D9 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = ../114.png; sourceTree = "<group>"; };
+		CA481CD5158EC0A100ED19D9 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57.png; path = ../57.png; sourceTree = "<group>"; };
+		CA481CD7158EC0FA00ED19D9 /* 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 144.png; path = ../144.png; sourceTree = "<group>"; };
+		CA481CD9158EC11800ED19D9 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 72.png; path = ../72.png; sourceTree = "<group>"; };
+		CA481CDB158EC26C00ED19D9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		CA481CDD158EC27200ED19D9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		CA481CDF158EC2E800ED19D9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		CA481CE1158EC2EC00ED19D9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		CA481CE3158EC2FC00ED19D9 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "../icon-72.png"; sourceTree = "<group>"; };
+		CA481CE5158EC33C00ED19D9 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-144.png"; path = "../icon-144.png"; sourceTree = "<group>"; };
+		CA481CE7158EC41500ED19D9 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		CA481CE9158EC80500ED19D9 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		CA481CEC158EC81C00ED19D9 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		CA481CEF158EC9B500ED19D9 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		CA82051E158EA786006B0128 /* ChildBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChildBrowser.bundle; sourceTree = "<group>"; };
 		CA82051F158EA786006B0128 /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserCommand.h; sourceTree = "<group>"; };
 		CA820520158EA786006B0128 /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserCommand.m; sourceTree = "<group>"; };
@@ -154,20 +154,6 @@
 		CA20153B158E59D500378CE1 = {
 			isa = PBXGroup;
 			children = (
-				CA481CEF158EC9B500ED19D9 /* Default-Portrait~ipad.png */,
-				CA481CEC158EC81C00ED19D9 /* Default-Landscape~ipad.png */,
-				CA481CE9158EC80500ED19D9 /* Default-Portrait@2x~ipad.png */,
-				CA481CE7158EC41500ED19D9 /* Default-Landscape@2x~ipad.png */,
-				CA481CE5158EC33C00ED19D9 /* icon-144.png */,
-				CA481CE3158EC2FC00ED19D9 /* icon-72.png */,
-				CA481CE1158EC2EC00ED19D9 /* icon@2x.png */,
-				CA481CDF158EC2E800ED19D9 /* icon.png */,
-				CA481CDD158EC27200ED19D9 /* icon.png */,
-				CA481CDB158EC26C00ED19D9 /* icon@2x.png */,
-				CA481CD9158EC11800ED19D9 /* 72.png */,
-				CA481CD7158EC0FA00ED19D9 /* 144.png */,
-				CA481CD5158EC0A100ED19D9 /* 57.png */,
-				CA481CD3158EC08200ED19D9 /* 114.png */,
 				CA201567158E59D500378CE1 /* Czech Hymnbook */,
 				CA20154C158E59D500378CE1 /* Frameworks */,
 				CA20154A158E59D500378CE1 /* Products */,
@@ -279,6 +265,20 @@
 		CA201583158E59D500378CE1 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				CA481CEF158EC9B500ED19D9 /* Default-Portrait~ipad.png */,
+				CA481CEC158EC81C00ED19D9 /* Default-Landscape~ipad.png */,
+				CA481CE9158EC80500ED19D9 /* Default-Portrait@2x~ipad.png */,
+				CA481CE7158EC41500ED19D9 /* Default-Landscape@2x~ipad.png */,
+				CA481CE5158EC33C00ED19D9 /* icon-144.png */,
+				CA481CE3158EC2FC00ED19D9 /* icon-72.png */,
+				CA481CE1158EC2EC00ED19D9 /* icon@2x.png */,
+				CA481CDF158EC2E800ED19D9 /* icon.png */,
+				CA481CDD158EC27200ED19D9 /* icon.png */,
+				CA481CDB158EC26C00ED19D9 /* icon@2x.png */,
+				CA481CD9158EC11800ED19D9 /* 72.png */,
+				CA481CD7158EC0FA00ED19D9 /* 144.png */,
+				CA481CD5158EC0A100ED19D9 /* 57.png */,
+				CA481CD3158EC08200ED19D9 /* 114.png */,
 				CA201584158E59D500378CE1 /* icon.png */,
 				CA201586158E59D500378CE1 /* icon@2x.png */,
 				CA201588158E59D500378CE1 /* icon-72.png */,
@@ -322,9 +322,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA201548158E59D500378CE1 /* Czech Hymnbook */ = {
+		CA201548158E59D500378CE1 /* Zpěvník */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Czech Hymnbook" */;
+			buildConfigurationList = CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Zpěvník" */;
 			buildPhases = (
 				CA201542158E59D500378CE1 /* Sources */,
 				CA201543158E59D500378CE1 /* Frameworks */,
@@ -337,7 +337,7 @@
 			);
 			dependencies = (
 			);
-			name = "Czech Hymnbook";
+			name = "Zpěvník";
 			productName = "Czech Hymnbook";
 			productReference = CA201549158E59D500378CE1 /* Czech Hymnbook.app */;
 			productType = "com.apple.product-type.application";
@@ -366,7 +366,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA201548158E59D500378CE1 /* Czech Hymnbook */,
+				CA201548158E59D500378CE1 /* Zpěvník */,
 			);
 		};
 /* End PBXProject section */
@@ -616,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Czech Hymnbook" */ = {
+		CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Zpěvník" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA2015A2158E59D500378CE1 /* Debug */,
