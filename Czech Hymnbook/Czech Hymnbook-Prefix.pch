@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Czech Hymnbook' target in the 'Czech Hymnbook' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

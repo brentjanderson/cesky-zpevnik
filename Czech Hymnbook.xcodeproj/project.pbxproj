@@ -45,7 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA201549158E59D500378CE1 /* Czech Hymbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Czech Hymbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA201549158E59D500378CE1 /* Czech Hymnbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Czech Hymnbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA20154D158E59D500378CE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA20154F158E59D500378CE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CA201551158E59D500378CE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +59,10 @@
 		CA201561158E59D500378CE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CA201563158E59D500378CE1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		CA201565158E59D500378CE1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		CA201569158E59D500378CE1 /* Czech Hymbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Czech Hymbook-Info.plist"; sourceTree = "<group>"; };
+		CA201569158E59D500378CE1 /* Czech Hymnbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Czech Hymnbook-Info.plist"; sourceTree = "<group>"; };
 		CA20156B158E59D500378CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA20156D158E59D500378CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA20156F158E59D500378CE1 /* Czech Hymbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Czech Hymbook-Prefix.pch"; sourceTree = "<group>"; };
+		CA20156F158E59D500378CE1 /* Czech Hymnbook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Czech Hymnbook-Prefix.pch"; sourceTree = "<group>"; };
 		CA201570158E59D500378CE1 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		CA201575158E59D500378CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CA201579158E59D500378CE1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		CA20153B158E59D500378CE1 = {
 			isa = PBXGroup;
 			children = (
-				CA201567158E59D500378CE1 /* Czech Hymbook */,
+				CA201567158E59D500378CE1 /* Czech Hymnbook */,
 				CA20154C158E59D500378CE1 /* Frameworks */,
 				CA20154A158E59D500378CE1 /* Products */,
 			);
@@ -135,7 +135,7 @@
 		CA20154A158E59D500378CE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA201549158E59D500378CE1 /* Czech Hymbook.app */,
+				CA201549158E59D500378CE1 /* Czech Hymnbook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA201567158E59D500378CE1 /* Czech Hymbook */ = {
+		CA201567158E59D500378CE1 /* Czech Hymnbook */ = {
 			isa = PBXGroup;
 			children = (
 				CA2015AE158E5B7700378CE1 /* www */,
@@ -170,17 +170,17 @@
 				CA20159C158E59D500378CE1 /* Plugins */,
 				CA201568158E59D500378CE1 /* Supporting Files */,
 			);
-			path = "Czech Hymbook";
+			path = "Czech Hymnbook";
 			sourceTree = "<group>";
 		};
 		CA201568158E59D500378CE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				CA820527158EA8FC006B0128 /* ChildBrowserViewController.xib */,
-				CA201569158E59D500378CE1 /* Czech Hymbook-Info.plist */,
+				CA201569158E59D500378CE1 /* Czech Hymnbook-Info.plist */,
 				CA20156A158E59D500378CE1 /* InfoPlist.strings */,
 				CA20156D158E59D500378CE1 /* main.m */,
-				CA20156F158E59D500378CE1 /* Czech Hymbook-Prefix.pch */,
+				CA20156F158E59D500378CE1 /* Czech Hymnbook-Prefix.pch */,
 				CA201591158E59D500378CE1 /* Cordova.plist */,
 				CA20159A158E59D500378CE1 /* MainViewController.xib */,
 				CA20159E158E59D500378CE1 /* verify.sh */,
@@ -280,9 +280,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA201548158E59D500378CE1 /* Czech Hymbook */ = {
+		CA201548158E59D500378CE1 /* Czech Hymnbook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Czech Hymbook" */;
+			buildConfigurationList = CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Czech Hymnbook" */;
 			buildPhases = (
 				CA201542158E59D500378CE1 /* Sources */,
 				CA201543158E59D500378CE1 /* Frameworks */,
@@ -295,9 +295,9 @@
 			);
 			dependencies = (
 			);
-			name = "Czech Hymbook";
-			productName = "Czech Hymbook";
-			productReference = CA201549158E59D500378CE1 /* Czech Hymbook.app */;
+			name = "Czech Hymnbook";
+			productName = "Czech Hymnbook";
+			productReference = CA201549158E59D500378CE1 /* Czech Hymnbook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +309,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Juicy Development LLC";
 			};
-			buildConfigurationList = CA201540158E59D500378CE1 /* Build configuration list for PBXProject "Czech Hymbook" */;
+			buildConfigurationList = CA201540158E59D500378CE1 /* Build configuration list for PBXProject "Czech Hymnbook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -324,7 +324,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA201548158E59D500378CE1 /* Czech Hymbook */,
+				CA201548158E59D500378CE1 /* Czech Hymnbook */,
 			);
 		};
 /* End PBXProject section */
@@ -493,12 +493,12 @@
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Czech Hymbook/Czech Hymbook-Prefix.pch";
+				GCC_PREFIX_HEADER = "Czech Hymnbook/Czech Hymnbook-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
-				INFOPLIST_FILE = "Czech Hymbook/Czech Hymbook-Info.plist";
+				INFOPLIST_FILE = "Czech Hymnbook/Czech Hymnbook-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -522,12 +522,12 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Czech Hymbook/Czech Hymbook-Prefix.pch";
+				GCC_PREFIX_HEADER = "Czech Hymnbook/Czech Hymnbook-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
-				INFOPLIST_FILE = "Czech Hymbook/Czech Hymbook-Info.plist";
+				INFOPLIST_FILE = "Czech Hymnbook/Czech Hymnbook-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA201540158E59D500378CE1 /* Build configuration list for PBXProject "Czech Hymbook" */ = {
+		CA201540158E59D500378CE1 /* Build configuration list for PBXProject "Czech Hymnbook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA20159F158E59D500378CE1 /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Czech Hymbook" */ = {
+		CA2015A1158E59D500378CE1 /* Build configuration list for PBXNativeTarget "Czech Hymnbook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA2015A2158E59D500378CE1 /* Debug */,

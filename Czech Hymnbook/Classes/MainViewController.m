@@ -19,7 +19,7 @@
 
 //
 //  MainViewController.h
-//  Czech Hymbook
+//  Czech Hymnbook
 //
 //  Created by Brent Anderson on 6/17/12.
 //  Copyright Juicy Development LLC 2012. All rights reserved.

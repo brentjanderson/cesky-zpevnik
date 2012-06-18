@@ -19,7 +19,7 @@
 
 //
 //  AppDelegate.m
-//  Czech Hymbook
+//  Czech Hymnbook
 //
 //  Created by Brent Anderson on 6/17/12.
 //  Copyright Juicy Development LLC 2012. All rights reserved.
@@ -66,7 +66,7 @@
     
     if (url && [url isKindOfClass:[NSURL class]]) {
         invokeString = [url absoluteString];
-		NSLog(@"Czech Hymbook launchOptions = %@", url);
+		NSLog(@"Czech Hymnbook launchOptions = %@", url);
     }    
     
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
@@ -115,7 +115,7 @@
 }
 
 // this happens while we are running ( in the background, or from within our own app )
-// only valid if Czech Hymbook-Info.plist specifies a protocol to handle
+// only valid if Czech Hymnbook-Info.plist specifies a protocol to handle
 - (BOOL) application:(UIApplication*)application handleOpenURL:(NSURL*)url 
 {
     if (!url) { 

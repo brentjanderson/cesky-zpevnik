@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Czech Hymbook.xcodeproj">
+      location = "self:Czech Hymnbook.xcodeproj">
    </FileRef>
 </Workspace>
